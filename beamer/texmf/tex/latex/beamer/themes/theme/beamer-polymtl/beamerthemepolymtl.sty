@@ -30,7 +30,7 @@
 \newlength{\beamer@polymtl@menuwidth}
 \newlength{\beamer@polymtl@restofmenuwidth}
 
-\setlength{\beamer@polymtl@menuwidth}{.3\paperwidth}
+\setlength{\beamer@polymtl@menuwidth}{.4\paperwidth}
 
 \DeclareOptionBeamer{url}[{das-labor.sexy}]{\def\beamer@polymtl@url{#1}}
 \DeclareOptionBeamer{numbering}[true]{\def\beamer@polymtl@numbering{#1}}
@@ -111,13 +111,13 @@
 \defbeamertemplate*{headline}{polymtl}%
 {
   \begin{beamercolorbox}[wd=\paperwidth,leftskip=1em,sep=0.8em]{headerline title}
-    \begin{minipage}{\beamer@polymtl@restofmenuwidth}
+	\begin{minipage}{\beamer@polymtl@restofmenuwidth}
 			{\labor\Large das la{\color{laborhilight}bo}r}%
     \end{minipage}
     \hspace{0pt}
     \begin{minipage}{\beamer@polymtl@menuwidth}
       \begin{flushright}
-        \insertsectionnavigationhorizontal{\beamer@polymtl@menuwidth}{}{}
+			\insertsectionnavigationhorizontal{\beamer@polymtl@menuwidth}{}{}
       \end{flushright}
     \end{minipage}
 
@@ -148,10 +148,10 @@
 % SECTION LIST
 \usesectionheadtemplate
 { %active
-  \color{polymtlred} \insertsectionhead
+  \color{laborhilight} \insertsectionhead
 }
 { %other
-  \color{polymtllightgrey} \insertsectionhead
+  \color{laborwhite} \insertsectionhead
 }
 
 % BACKGROUND IMAGE
@@ -164,7 +164,7 @@
 	\else
   \parbox[r][\paperheight]{\paperwidth}{
     \vfill\hfill
-    \includegraphics[width=80pt]{images/polymtl-watermark.pdf}
+    \includegraphics[width=80pt]{images/watermark.pdf}
   }
   \fi
 }
