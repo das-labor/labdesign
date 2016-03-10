@@ -8,18 +8,19 @@ Version:
 ItalicAngle: 0
 UnderlinePosition: 0
 UnderlineWidth: 0
-Ascent: 800
-Descent: 200
+Ascent: 333
+Descent: 83
+InvalidEm: 0
 LayerCount: 2
-Layer: 0 0 "Back"  1
-Layer: 1 0 "Fore"  0
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
 XUID: [1021 796 510207935 428964]
 FSType: 8
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1396225978
-ModificationTime: 1396227954
+ModificationTime: 1457643189
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -41,7 +42,7 @@ HheadDOffset: 1
 OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 
+LangName: 1033
 MATH:ScriptPercentScaleDown: 80
 MATH:ScriptScriptPercentScaleDown: 60
 MATH:DelimitedSubFormulaMinHeight: 1500
@@ -107,15 +108,16 @@ DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
 WidthSeparation: 100
-WinInfo: 0 16 4
+WinInfo: 0 16 7
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 510657 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65536 53
+BeginChars: 65536 54
 
 StartChar: germandbls
 Encoding: 223 223 0
 Width: 574
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -159,37 +161,38 @@ EndChar
 StartChar: udieresis
 Encoding: 252 252 1
 Width: 574
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-156 697 m 1
- 261 697 l 1
- 261 592 l 1
- 156 592 l 1
- 156 697 l 1
-313 697 m 1
- 419 697 l 1
- 419 592 l 1
- 313 592 l 1
- 313 697 l 1
-50 487 m 1
- 156 487 l 1
- 156 171 l 2
- 156 127 166 104 180 90 c 0
- 194 76 217 66 261 66 c 2
- 313 66 l 2
- 357 66 381 76 395 90 c 0
- 409 104 419 127 419 171 c 2
- 419 487 l 1
- 524 487 l 1
- 524 171 l 2
- 524 110 508 55 469 16 c 0
- 430 -23 375 -39 313 -39 c 2
- 261 -39 l 2
- 200 -39 144 -23 105 16 c 0
- 66 55 50 110 50 171 c 2
- 50 487 l 1
+156 697 m 5
+ 261 697 l 5
+ 261 592 l 5
+ 156 592 l 5
+ 156 697 l 5
+313 697 m 5
+ 419 697 l 5
+ 419 592 l 5
+ 313 592 l 5
+ 313 697 l 5
+50 487 m 5
+ 156 487 l 5
+ 156 171 l 6
+ 156 127 166 104 180 90 c 4
+ 194 76 217 66 261 66 c 6
+ 313 66 l 6
+ 357 66 381 76 395 90 c 4
+ 409 104 419 127 419 171 c 6
+ 419 487 l 5
+ 524 487 l 5
+ 524 171 l 6
+ 524 110 508 55 469 16 c 4
+ 430 -23 375 -39 313 -39 c 6
+ 261 -39 l 6
+ 200 -39 144 -23 105 16 c 4
+ 66 55 50 110 50 171 c 6
+ 50 487 l 5
 EndSplineSet
 Validated: 1
 EndChar
@@ -197,6 +200,7 @@ EndChar
 StartChar: odieresis
 Encoding: 246 246 2
 Width: 574
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -248,6 +252,7 @@ EndChar
 StartChar: adieresis
 Encoding: 228 228 3
 Width: 574
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -292,6 +297,7 @@ EndChar
 StartChar: slash
 Encoding: 47 47 4
 Width: 468
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -316,6 +322,7 @@ EndChar
 StartChar: backslash
 Encoding: 92 92 5
 Width: 468
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -341,6 +348,7 @@ EndChar
 StartChar: underscore
 Encoding: 95 95 6
 Width: 574
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -357,6 +365,7 @@ EndChar
 StartChar: bar
 Encoding: 124 124 7
 Width: 206
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -373,6 +382,7 @@ EndChar
 StartChar: equal
 Encoding: 61 61 8
 Width: 521
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -394,6 +404,7 @@ EndChar
 StartChar: plus
 Encoding: 43 43 9
 Width: 521
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -418,6 +429,7 @@ EndChar
 StartChar: hyphen
 Encoding: 45 45 10
 Width: 521
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -434,6 +446,7 @@ EndChar
 StartChar: question
 Encoding: 63 63 11
 Width: 521
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -472,6 +485,7 @@ EndChar
 StartChar: exclam
 Encoding: 33 33 12
 Width: 206
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -493,6 +507,7 @@ EndChar
 StartChar: semicolon
 Encoding: 59 59 13
 Width: 258
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -519,6 +534,7 @@ EndChar
 StartChar: colon
 Encoding: 58 58 14
 Width: 206
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -540,6 +556,7 @@ EndChar
 StartChar: comma
 Encoding: 44 44 15
 Width: 258
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -561,6 +578,7 @@ EndChar
 StartChar: period
 Encoding: 46 46 16
 Width: 206
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -577,6 +595,7 @@ EndChar
 StartChar: nine
 Encoding: 57 57 17
 Width: 574
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -615,6 +634,7 @@ EndChar
 StartChar: eight
 Encoding: 56 56 18
 Width: 574
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -667,6 +687,7 @@ EndChar
 StartChar: seven
 Encoding: 55 55 19
 Width: 521
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -693,6 +714,7 @@ EndChar
 StartChar: six
 Encoding: 54 54 20
 Width: 574
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -731,6 +753,7 @@ EndChar
 StartChar: five
 Encoding: 53 53 21
 Width: 574
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -766,6 +789,7 @@ EndChar
 StartChar: four
 Encoding: 52 52 22
 Width: 521
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -792,6 +816,7 @@ EndChar
 StartChar: three
 Encoding: 51 51 23
 Width: 547
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -830,6 +855,7 @@ EndChar
 StartChar: two
 Encoding: 50 50 24
 Width: 574
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -867,6 +893,7 @@ EndChar
 StartChar: one
 Encoding: 49 49 25
 Width: 363
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -889,6 +916,7 @@ EndChar
 StartChar: z
 Encoding: 122 122 26
 Width: 574
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -921,6 +949,7 @@ EndChar
 StartChar: y
 Encoding: 121 121 27
 Width: 521
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -955,6 +984,7 @@ EndChar
 StartChar: x
 Encoding: 120 120 28
 Width: 574
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -992,6 +1022,7 @@ EndChar
 StartChar: w
 Encoding: 119 119 29
 Width: 626
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -1033,6 +1064,7 @@ EndChar
 StartChar: v
 Encoding: 118 118 30
 Width: 574
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -1062,6 +1094,7 @@ EndChar
 StartChar: u
 Encoding: 117 117 31
 Width: 574
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -1090,6 +1123,7 @@ EndChar
 StartChar: t
 Encoding: 116 116 32
 Width: 416
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -1116,6 +1150,7 @@ EndChar
 StartChar: s
 Encoding: 115 115 33
 Width: 574
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -1153,6 +1188,7 @@ EndChar
 StartChar: r
 Encoding: 114 114 34
 Width: 416
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -1175,6 +1211,7 @@ EndChar
 StartChar: q
 Encoding: 113 113 35
 Width: 574
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -1209,6 +1246,7 @@ EndChar
 StartChar: p
 Encoding: 112 112 36
 Width: 574
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -1243,6 +1281,7 @@ EndChar
 StartChar: o
 Encoding: 111 111 37
 Width: 574
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -1285,6 +1324,7 @@ EndChar
 StartChar: n
 Encoding: 110 110 38
 Width: 521
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -1313,6 +1353,7 @@ EndChar
 StartChar: m
 Encoding: 109 109 39
 Width: 626
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -1348,6 +1389,7 @@ EndChar
 StartChar: l
 Encoding: 108 108 40
 Width: 416
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -1370,6 +1412,7 @@ EndChar
 StartChar: k
 Encoding: 107 107 41
 Width: 521
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -1408,6 +1451,7 @@ EndChar
 StartChar: j
 Encoding: 106 106 42
 Width: 416
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -1435,6 +1479,7 @@ EndChar
 StartChar: i
 Encoding: 105 105 43
 Width: 206
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -1456,6 +1501,7 @@ EndChar
 StartChar: h
 Encoding: 104 104 44
 Width: 521
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -1482,6 +1528,7 @@ EndChar
 StartChar: g
 Encoding: 103 103 45
 Width: 574
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -1523,6 +1570,7 @@ EndChar
 StartChar: f
 Encoding: 102 102 46
 Width: 416
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -1548,6 +1596,7 @@ EndChar
 StartChar: e
 Encoding: 101 101 47
 Width: 574
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -1586,6 +1635,7 @@ EndChar
 StartChar: d
 Encoding: 100 100 48
 Width: 574
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -1620,6 +1670,7 @@ EndChar
 StartChar: c
 Encoding: 99 99 49
 Width: 521
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -1648,6 +1699,7 @@ EndChar
 StartChar: b
 Encoding: 98 98 50
 Width: 574
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -1682,6 +1734,7 @@ EndChar
 StartChar: a
 Encoding: 97 97 51
 Width: 574
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -1716,6 +1769,7 @@ EndChar
 StartChar: zero
 Encoding: 48 48 52
 Width: 574
+VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
@@ -1758,6 +1812,14 @@ SplineSet
  119 463 191 487 257 487 c 2
 EndSplineSet
 Validated: 1
+EndChar
+
+StartChar: glyph53
+Encoding: 32 32 53
+Width: 416
+VWidth: 0
+Flags: HWO
+LayerCount: 2
 EndChar
 EndChars
 EndSplineFont
